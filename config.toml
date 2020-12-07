@@ -18,7 +18,7 @@ disableLanguages        = []
 
 [params]
   enableCDN             = false
-  cssFiles              = ["default"]
+  cssFiles              = ["default", "/css/stip.css"]
   jsFiles               = ["default"]
   highlightjs           = true
   highlightjsTheme      = ""
@@ -81,6 +81,23 @@ disableLanguages        = []
     [params.staticman.recaptcha]
       siteKey           = ""
       encryptedKey      = ""
+
+  # For Stip
+  [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:mail@example.org"
+
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/"
+
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/"
 
 [menu]
 
@@ -176,3 +193,4 @@ disableLanguages        = []
   mastodon              = "example.com/@example"
   # Email
   email                 = "example"
+

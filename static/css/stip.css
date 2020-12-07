@@ -1,0 +1,82 @@
+/*
+  This css file is for individual users to restyle items for their personal site,
+  or for the implementation of features specifically for their site. Anything that
+  is an official part of the theme (ex. Pull Requests) should be included in main.css
+  and follow the formatting and style given.
+*/
+
+img.stip-portrait {
+    border-radius: 50%;
+    border: 20px solid #fff;
+    width: 300px;
+    height: 300px;
+    box-sizing: content-box;
+}
+
+.stip-portrait-container {
+    border-radius: 50%;
+    border: 65vw solid #164972;
+    margin: -63vw; 
+    height: 340px;
+    width: 340px;
+    box-sizing: content-box;
+}
+
+h1.stip-text {
+    font-size: 6rem;
+    font-weight: 100;
+    color: #fff;
+}
+
+h2.stip-text {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #fff;
+}
+
+p.stip-text {
+    font-family: $serif;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.stip-main {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.stip-content {
+    margin-left: 1rem;
+    max-width: 50vw;
+}
+
+.stip-links {
+        margin-top: 2.5rem;
+        font-size: 1.5rem;
+
+        a {
+            margin-right: 0.5rem;
+            text-decoration: none;
+        }
+    }
+
+.stip-footer {
+    margin-top: 3rem;
+    font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 980px) {
+  .stip-main {
+    flex-direction: column;
+  }
+
+  .stip-content {
+  	margin-left: 0;
+    max-width: 100vw;
+  }
+
+  h1.stip-text {
+  	font-size: 6rem;
+  }
+}
