@@ -1,4 +1,4 @@
-To view this site, just click [here](https://github.com/gerhean/gerhean_hugo_site) (Not working)
+To view this site, just click [here](https://gerhean.netlify.app/)
 
 
 To contribute to the source code or documentation, you should fork the GitHub project and clone it to your local machine.
