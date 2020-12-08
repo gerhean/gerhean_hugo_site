@@ -56,7 +56,7 @@ disableLanguages        = []
     alwaysOnHomepage      = false
 
     [params.intro.pic]
-      src                 = "images/portrait.jpg"
+      src                 = "img/main/portrait.jpg"
       shape               = "circle"
       width               = ""
       alt                 = "My Portrait"

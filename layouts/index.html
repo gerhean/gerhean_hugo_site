@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
     {{- partial "head" . }}
-    <body style="background:url('{{ "images/background.jpg" | absURL }}');">
+    <body style="background:url('{{ "img/main/background.jpg" | absURL }}');">
         {{ partial "site-header" . }}
         <!-- <div id="wrapper">
         </div> -->
         <main class="stip-main" >
             <div class="stip-portrait-container">
-                <img src="{{ "images/portrait.jpg" | relURL }}" width="300" height="300" class="stip-portrait" alt="Portrait" />
+                <img src="{{ "img/main/portrait.jpg" | relURL }}" width="300" height="300" class="stip-portrait" alt="Portrait" />
             </div>
 
             <div class="stip-content">
