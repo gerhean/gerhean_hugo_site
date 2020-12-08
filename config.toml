@@ -59,7 +59,7 @@ disableLanguages        = []
       src                 = "images/portrait.jpg"
       shape               = "circle"
       width               = ""
-      alt                 = "Hugo Future Imperfect Slim"
+      alt                 = "My Portrait"
 
   [params.sidebar]
     about               = "This theme was developed for Hugo static site generator."
