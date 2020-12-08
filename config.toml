@@ -2,7 +2,7 @@
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
 baseurl                 = "https://example.com/"
 DefaultContentLanguage  = "en"
-title                   = "Hugo Future Imperfect Slim"
+title                   = "Ger Hean Blog"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
 disqusShortname         = ""
@@ -27,12 +27,13 @@ disableLanguages        = []
   readingTime           = true
   imageStretch          = ""
   removeBlur            = false
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
+  #socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
+  socialShare           = ["linkedin", "email"]
   hideEmptyStats        = false
 
   [params.meta]
     description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
-    author              = "HTML5UP and Hugo"
+    author              = "Ger Hean"
     favicon             = false
     svg                 = true
     faviconVersion      = "1"
@@ -40,22 +41,22 @@ disableLanguages        = []
     iOSColor            = "#ffffff"
 
   [params.header]
-    navbarTitle         = "Future Imperfect"
+    navbarTitle         = "Home"
     dynamicTitles       = true
     searchMenu          = true
     shareMenu           = true
     languageMenu        = true
 
   [params.intro]
-    header                = "Hugo Future Imperfect Slim"
-    paragraph             = "Another fine, responsive site template by <a href='http://html5up.net'>HTML5 UP</a>."
+    header                = "Ger Hean's Whimsical Thoughts"
+    paragraph             = "Currently looking for internships for Summer 2021!"
     rssIntro              = true
     socialIntro           = true
     hideWhenSingleColumn  = false
     alwaysOnHomepage      = false
 
     [params.intro.pic]
-      src                 = "img/main/logo.jpg"
+      src                 = "images/portrait.jpg"
       shape               = "circle"
       width               = ""
       alt                 = "Hugo Future Imperfect Slim"
@@ -87,17 +88,22 @@ disableLanguages        = []
         iconset = "fas"
         icon = "envelope"
         title = "E-mail"
-        url = "mailto:mail@example.org"
+        url = "gerhean@live.com"
 
     [[params.links]]
         icon = "github"
         title = "Github"
-        url = "https://github.com/"
+        url = "https://github.com/gerhean"
 
     [[params.links]]
-        icon = "twitter"
-        title = "Twitter"
-        url = "https://twitter.com/"
+        icon = "linkedin"
+        title = "Linkedin"
+        url = "https://www.linkedin.com/in/gerhean/"
+
+#    [[params.links]]
+#        icon = "twitter"
+#        title = "Twitter"
+#        url = "https://twitter.com/"
 
 [menu]
 
@@ -147,50 +153,55 @@ disableLanguages        = []
 [social]
   # Coding Communities
   github                = "pacollins/hugo-future-imperfect-slim"
-  gitlab                = ""
-  stackoverflow         = "" # User Number
-  bitbucket             = ""
-  jsfiddle              = ""
-  codepen               = ""
+  #gitlab                = ""
+  #stackoverflow         = "" # User Number
+  #bitbucket             = ""
+  #jsfiddle              = ""
+  #codepen               = ""
+  
   # Visual Art Communities
-  deviantart            = ""
-  flickr                = "example"
-  behance               = ""
-  dribbble              = ""
+  #deviantart            = ""
+  #flickr                = "example"
+  #behance               = ""
+  #dribbble              = ""
+  
   # Publishing Communities
-  wordpress             = ""
-  medium                = ""
+  #wordpress             = ""
+  #medium                = ""
+  
   # Professional/Business Oriented Communities
-  linkedin              = "example"
-  linkedin_company      = "examplebusiness"
-  foursquare            = ""
-  xing                  = ""
-  slideshare            = ""
+  linkedin              = "https://www.linkedin.com/in/gerhean/"
+  #linkedin_company      = "examplebusiness"
+  #foursquare            = ""
+  #xing                  = ""
+  #slideshare            = ""
+  
   # Social Networks
-  facebook              = "example"
-  googleplus            = ""
-  reddit                = "example"
-  quora                 = ""
-  youtube               = ""
-  vimeo                 = ""
-  whatsapp              = "" # WhatsApp Number
+  #facebook              = "example"
+  #googleplus            = ""
+  #reddit                = "example"
+  #quora                 = ""
+  #youtube               = ""
+  #vimeo                 = ""
+  #whatsapp              = "" # WhatsApp Number
     # WeChat and QQ need testing.
-    wechat              = ""
-    qq                  = "" # User ID Number
-  instagram             = "example"
-  tumblr                = ""
-  twitter               = "example"
-  strava                = ""
-  skype                 = ""
-  snapchat              = ""
-  pinterest             = "example"
-  telegram              = "example"
-  vine                  = ""
-  googlescholar         = ""
-  orcid                 = ""
-  researchgate          = "example"
-  keybase               = "example"
-  mastodon              = "example.com/@example"
+    #wechat              = ""
+    #qq                  = "" # User ID Number
+  #instagram             = "example"
+  #tumblr                = ""
+  #twitter               = "example"
+  #strava                = ""
+  #skype                 = ""
+  #snapchat              = ""
+  #pinterest             = "example"
+  telegram              = "@Icecreamissweet"
+  #vine                  = ""
+  #googlescholar         = ""
+  #orcid                 = ""
+  #researchgate          = "example"
+  #keybase               = "example"
+  #mastodon              = "example.com/@example"
+
   # Email
-  email                 = "example"
+  email                 = "gerhean@live.com"
 
