@@ -37,7 +37,7 @@ comments:
   moderation: false
 
   # Name of the site. Used in notification emails.
-  name: ""
+  name: "gerhean_hugo_site"
 
   # (*) REQUIRED
   #
@@ -62,10 +62,10 @@ comments:
   # Register your domain at https://www.google.com/recaptcha/ and choose
   # reCAPTCHA V2. Use your OWN siteKey and secret.
   reCaptcha:
-    enabled: false
+    enabled: true
     # siteKey and secret should match your config.toml
-    siteKey: ""
+    siteKey: "6LeB_v0ZAAAAANs1pfw9WMDl6T7EQ9JvXqeSqq-A"
     # (!) ENCRYPT reCaptcha secret key using Staticman /encrypt endpoint
     # i.e. https://{your-staticman-api}/v3/encrypt/{your-site-secret}
     # For more information, visit https://staticman.net/docs/encryption
-    secret: ""
+    secret: "StBjRDsqq6t/UASOIN0REKvgF52pnN3DteF1il5OQ2AuMs1VeYKsdykXX9fXTfqiByYB+NDXVZ6pMQEDk9tyxpdQQio+Mq9oznzS0JngUxg5SUx3dpbMM+Shgef8kfSJw1n3nYAVy/IEjcXhc32dmF0wA6IcjyTF4nsH1WuEbpqZ+D8axR9+iUGFkJg5BMOJ9gAWtdJ9MDCTCNDFFRG6GAN9i11eHMF7hZLz2wMIpf7NIib/ib0c6UAaKmBROU3X0IQ3ziKu1dyChIWVhf+TVdhtMsJqVdtognYu+51GTZEhHXVuQPXJRY034Ta64qUIEeYRlrv37yxdapZPLxEm0g=="
