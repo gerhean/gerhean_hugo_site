@@ -1,6 +1,6 @@
 # For a description of these parameters, please visit the theme wiki.
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
-baseurl                 = "https://example.com/"
+baseurl                 = "https://gerhean.netlify.app/"
 DefaultContentLanguage  = "en"
 title                   = "Ger Hean Blog"
 theme                   = "hugo-future-imperfect-slim"
@@ -62,7 +62,7 @@ disableLanguages        = []
       alt                 = "My Portrait"
 
   [params.sidebar]
-    about               = "This theme was developed for Hugo static site generator."
+    about               = "A Computer Science student trying his best to study hard."
     postAmount          = 5
     categories          = true
     categoriesByCount   = true
@@ -152,7 +152,7 @@ disableLanguages        = []
 
 [social]
   # Coding Communities
-  github                = "pacollins/hugo-future-imperfect-slim"
+  github                = "https://github.com/gerhean"
   #gitlab                = ""
   #stackoverflow         = "" # User Number
   #bitbucket             = ""
