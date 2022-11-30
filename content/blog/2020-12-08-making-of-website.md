@@ -3,7 +3,7 @@ title = "Making of Website"
 description = "My First Post!"
 date = "2020-12-08"
 tags = ["hugo", "html"]
-categories = ["programming"]
+categories = ["programming", "web-development"]
 [[images]]
   src = "img/2020/12/first-website-ss.png"
   alt = "My Website Screenshot"

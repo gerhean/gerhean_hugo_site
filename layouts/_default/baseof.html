@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="{{ .Page.Language | default "en" }}">
+  <link rel="stylesheet" href="/css/homepage.css">
+  {{ partial "head" . }}
+  <body>
+    {{ partial "site-header" . }}
+    <div id="wrapper">
+      <img class="home-background" src='{{ "/img/main/background.jpg" | absURL }}'>
+      {{ partial "site-intro" . }}
+      <main id="site-main">
+        {{ block "main" . }}{{ end }}
+      </main>
+      {{ partial "site-sidebar" . }}
+      {{ partial "site-footer" . }}
+      {{ partial "scripts" . }}
+    </div>
+  </body>
+</html>

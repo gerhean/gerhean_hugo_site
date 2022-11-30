@@ -27,8 +27,8 @@ disableLanguages        = []
   readingTime           = true
   imageStretch          = ""
   removeBlur            = false
-  #socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
-  socialShare           = ["linkedin", "email"]
+  socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
+  #socialShare           = ["linkedin", "email"]
   hideEmptyStats        = false
 
   [params.meta]
@@ -49,7 +49,7 @@ disableLanguages        = []
 
   [params.intro]
     header                = "Ger Hean's Whimsical Thoughts"
-    paragraph             = "Currently looking for internships for Summer 2021!"
+    paragraph             = "Writing about random stuff!"
     rssIntro              = true
     socialIntro           = true
     hideWhenSingleColumn  = false
@@ -62,7 +62,7 @@ disableLanguages        = []
       alt                 = "My Portrait"
 
   [params.sidebar]
-    about               = "A Computer Science student trying his best to study hard."
+    about               = "Self proclaimed genius software engineer."
     postAmount          = 5
     categories          = true
     categoriesByCount   = true

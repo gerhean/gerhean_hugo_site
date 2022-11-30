@@ -8,13 +8,16 @@ layout = "about"
 
 ## Introduction
 
-A 3rd year Computer Science and Mathematics double degree student in National University of Singapore, I'm currently looking for an internship for Summer 2021. Currently trying new things such as making websites, and practicing for interviews. 
+A Computer Science and Mathematics double degree graduate from National University of Singapore.
+Interested in scalable systems, game development, applications of artificial intelligence, and many more...
+Currently still unemployed.
 
 
 ## Future
 
-Looking to specialise in machine learning and artificial intelligence fields. However one never knows what life has in store for them, and so I try to read up on everything to widen my horizons.
+One never knows what life has in store for them, and so I try to read up on everything to widen my horizons.
 
+Right now I'm playing VR games.
 
 ## Life Story
 
@@ -27,4 +30,10 @@ It was a fun 2 years of my life which I had won various rewards, and was what ce
 
 ## Making of this site
 
-This website was made using [Hugo](https://gohugo.io/) with the [stip](https://github.com/EmielH/stip-hugo) and [Hugo Future Imperfect Slim](https://github.com/pacollins/hugo-future-imperfect-slim) themes.
+This website was made using [Hugo](https://gohugo.io/) with the [Hugo Future Imperfect Slim](https://github.com/pacollins/hugo-future-imperfect-slim) theme.
+Homepage background by [Noranekogames](https://noranekogames.itch.io/yumebackground).
+Heart background by [Lynda Mc Donald](https://loudeyes.itch.io/dating-sim-ui-pack)
+
+I'm using Instagram comment section because setting up my own is too much trouble :/
+
+<sub>Last updated 30 Nov 2022</sub>
