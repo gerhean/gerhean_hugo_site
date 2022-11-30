@@ -4,6 +4,7 @@ description = "After two years, my website is finally getting an update?"
 date = "2022-11-30"
 tags = ["hackathon"]
 categories = ["programming", "web-development"]
+instagram_link = "https://www.instagram.com/p/Cllbq8OPD6I/"
 [[images]]
   src = "img/2022/11/blog1.png"
   alt = "blog1"
