@@ -50,7 +50,7 @@ disableLanguages        = []
   [params.intro]
     header                = "Ger Hean's Whimsical Thoughts"
     paragraph             = "Writing about random stuff!"
-    rssIntro              = true
+    rssIntro              = false
     socialIntro           = true
     hideWhenSingleColumn  = false
     alwaysOnHomepage      = false
@@ -68,7 +68,7 @@ disableLanguages        = []
     categoriesByCount   = true
 
   [params.footer]
-    rssFooter           = true
+    rssFooter           = false
     socialFooter        = true
 
   [params.staticman]
@@ -192,14 +192,14 @@ disableLanguages        = []
     # WeChat and QQ need testing.
     #wechat              = ""
     #qq                  = "" # User ID Number
-  instagram             = "@gerhean"
+  instagram             = "gerhean"
   #tumblr                = ""
   #twitter               = "example"
   #strava                = ""
   #skype                 = ""
   #snapchat              = ""
   #pinterest             = "example"
-  telegram              = "@gerhean"
+  telegram              = "gerhean"
   #vine                  = ""
   #googlescholar         = ""
   #orcid                 = ""
