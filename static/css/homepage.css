@@ -1,0 +1,87 @@
+.home-header {
+  position: fixed; 
+  top: 0;
+}
+
+.home-background { 
+  position: fixed; 
+  top: 0; 
+  right: 0; 
+  z-index: -2;
+	
+  /* Preserve aspect ratio */
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.home-body {
+  display: flex;
+  align-items: flex-end;
+  min-height: calc(100vh - 3.5em);
+}
+
+.home-main {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+
+.home-content-left {
+  margin-left: -5vw;
+  margin-right: 5vw;
+  min-width: 30vw;
+  display: flex;
+  align-items: flex-end;
+  max-height: 100%;
+}
+
+.home-content-right {
+  /* margin-left: 4rem; */
+  /* min-width: 60vw; */
+  background-color: rgba(79, 79, 79, 0.5);
+}
+
+.home-portrait {  
+  z-index: -1;
+	
+  /* Preserve aspet ratio */
+  min-height: 50px;
+  max-height: 500px;
+  min-width: 50px;
+}
+
+h1.home-text {
+  font-size: 5vw;
+  font-weight: 100;
+  color: #fff;
+}
+
+h2.home-text {
+  font-size: 2rem;
+  font-weight: 100;
+  color: #fff;
+}
+
+p.home-text {
+  font-family: $serif;
+  font-weight: 300;
+  line-height: 1.7;
+  font-size: 1.2rem;
+}
+
+.home-links {
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+
+  a {
+      margin-right: 0.5rem;
+      text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .home-main {
+    flex-direction: column-reverse;
+  }
+}

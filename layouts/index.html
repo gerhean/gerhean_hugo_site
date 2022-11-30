@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
+    <link rel="stylesheet" href="/css/homepage.css">
     {{- partial "head" . }}
-    <body style="background:url('{{ "img/main/background.jpg" | absURL }}');">
+    <body>
         {{ partial "site-header" . }}
+        <img class="home-background" src='{{ "/img/main/background.jpg" | absURL }}'>
+        
         <!-- <div id="wrapper">
         </div> -->
-        <main class="stip-main" >
-            <div class="stip-portrait-container">
-                <img src="{{ "img/main/portrait.jpg" | relURL }}" width="300" height="300" class="stip-portrait" alt="Portrait" />
-            </div>
-
-            <div class="stip-content">
-                <h1 class="stip-text">Chan Ger Hean</h1>
-                <h2 class="stip-text">Software Engineer</h2>
-                <p class="stip-text">{{- partial "stip_introduction.html" . -}}</p>
-
-                <div class="stip-links">
-                    {{- range .Site.Params.links -}}
-                        <a rel="me" href="{{ .url }}" title="{{ .title }}">
-                            <span class="{{ .iconset | default "fab" }} fa-{{ .icon }}"></span>
-                        </a>
-                    {{- end -}}
+        <div class="home-body">
+            <main class="home-main" >
+                <div class="home-content-left">
+                    <img class="home-portrait" src='{{ "/img/main/home_portrait.png" | absURL }}'>
                 </div>
-
-                {{- partial "stip_footer.html" . -}}
-            </div>
-        </main>
-        {{ partial "scripts" . }}
+                <div class="home-content-right">
+                    <h1 class="home-text">Chan Ger Hean</h1>
+                    <h2 class="home-text">Software Engineer</h2>
+                    <p class="home-text">
+                        A Computer Science and Mathematics double degree graduate from National University of Singapore.
+                        Interested in scalable systems, game development, applications of artificial intelligence, and many more... 
+                    </p>
+                    <p class="home-text">I just post whatever I want here in my free time.</p>
+    
+                    <div class="home-links">
+                        {{- range .Site.Params.links -}}
+                            <a rel="me" href="{{ .url }}" title="{{ .title }}">
+                                <span class="{{ .iconset | default "fab" }} fa-{{ .icon }}"></span>
+                            </a>
+                        {{- end -}}
+                    </div>
+                </div>
+            </main>
+        </div>
         
     </body>
 </html>

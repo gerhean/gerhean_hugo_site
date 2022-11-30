@@ -83,8 +83,8 @@ disableLanguages        = []
       siteKey           = "6LeB_v0ZAAAAANs1pfw9WMDl6T7EQ9JvXqeSqq-A"
       encryptedKey      = "StBjRDsqq6t/UASOIN0REKvgF52pnN3DteF1il5OQ2AuMs1VeYKsdykXX9fXTfqiByYB+NDXVZ6pMQEDk9tyxpdQQio+Mq9oznzS0JngUxg5SUx3dpbMM+Shgef8kfSJw1n3nYAVy/IEjcXhc32dmF0wA6IcjyTF4nsH1WuEbpqZ+D8axR9+iUGFkJg5BMOJ9gAWtdJ9MDCTCNDFFRG6GAN9i11eHMF7hZLz2wMIpf7NIib/ib0c6UAaKmBROU3X0IQ3ziKu1dyChIWVhf+TVdhtMsJqVdtognYu+51GTZEhHXVuQPXJRY034Ta64qUIEeYRlrv37yxdapZPLxEm0g=="
 
-  # For Stip
-  [[params.links]]
+    # For Homepage
+    [[params.links]]
         iconset = "fas"
         icon = "envelope"
         title = "E-mail"
@@ -99,6 +99,11 @@ disableLanguages        = []
         icon = "linkedin"
         title = "Linkedin"
         url = "https://www.linkedin.com/in/gerhean/"
+
+    [[params.links]]
+        icon = "instagram"
+        title = "Instagram"
+        url = "https://www.instagram.com/gerhean/"
 
 #    [[params.links]]
 #        icon = "twitter"
@@ -187,14 +192,14 @@ disableLanguages        = []
     # WeChat and QQ need testing.
     #wechat              = ""
     #qq                  = "" # User ID Number
-  #instagram             = "example"
+  instagram             = "@gerhean"
   #tumblr                = ""
   #twitter               = "example"
   #strava                = ""
   #skype                 = ""
   #snapchat              = ""
   #pinterest             = "example"
-  telegram              = "@Icecreamissweet"
+  telegram              = "@gerhean"
   #vine                  = ""
   #googlescholar         = ""
   #orcid                 = ""
