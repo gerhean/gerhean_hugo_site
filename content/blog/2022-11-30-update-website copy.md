@@ -2,8 +2,8 @@
 title = "Reviving my dead website!"
 description = "After two years, my website is finally getting an update?"
 date = "2022-11-30"
-tags = ["hackathon"]
-categories = ["programming", "web-development"]
+tags = ["web-development", "html", "css"]
+categories = ["programming"]
 instagram_link = "https://www.instagram.com/p/Cllbq8OPD6I/"
 [[images]]
   src = "img/2022/11/blog1.png"
@@ -31,7 +31,7 @@ The biggest challenge I faced was getting the anime face to stick at the bottom 
 
 Why? Turns out the header takes up space too! Aha, what if I set the height to 100vh minus the height of the header. The header is not made by me, rather it is taken from the Hugo Future Imperfect Slim theme, and there was A LOT of CSS in that theme. Thankfully, I can just check the height via developer tools. But what if the theme is updated in the future? Well...
 
-[hugo_theme_archived](/img/2022/11/hugo_theme_archived.png)
+![hugo_theme_archived](/img/2022/11/hugo_theme_archived.png)
 
 It doesn't seem to be a problem anymore.
 
