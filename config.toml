@@ -146,6 +146,13 @@ disableLanguages        = []
     url               = "/contact/"
     pre               = "<i class='far fa-envelope'></i>"
     weight            = 6
+  
+  [[menu.main]]
+    name              = "Source"
+    identifier        = "gsource"
+    url               = "https://github.com/gerhean/gerhean_hugo_site"
+    pre               = "<i class='fab fa-github'></i>"
+    weight            = 7
 
 [Languages]
 

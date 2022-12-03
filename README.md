@@ -41,3 +41,9 @@ It is simple. Just call:
 hugo -D
 ```
 Output will be in `./public/` directory by default (`-d`/`--destination` flag to change it, or set `publishdir` in the config file).
+
+## Real Step 3: CI/CD
+
+Let Netlify handle the publishing of the site by simply adding a branch to be the build target.
+
+`netlify.toml` specifies how Netlify should build and deploy the site.
