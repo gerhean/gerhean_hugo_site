@@ -2,7 +2,7 @@
 title = "Reviving my dead website!"
 description = "After two years, my website is finally getting an update?"
 date = "2022-11-30"
-tags = ["web-development", "html", "css"]
+tags = ["web-development", "html", "css", "blog-updates"]
 categories = ["programming"]
 instagram_link = "https://www.instagram.com/p/Cllbq8OPD6I/"
 [[images]]
