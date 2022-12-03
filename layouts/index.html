@@ -8,6 +8,11 @@
         
         <!-- <div id="wrapper">
         </div> -->
+        <img class="home-leaf" id="home-leaf1" src='{{ "/img/main/leaf.png" | absURL }}'>
+        <img class="home-leaf" id="home-leaf2" src='{{ "/img/main/leaf.png" | absURL }}'>
+        <img class="home-leaf" id="home-leaf3" src='{{ "/img/main/leaf.png" | absURL }}'>
+        <img class="home-leaf" id="home-leaf4" src='{{ "/img/main/leaf.png" | absURL }}'>
+        <img class="home-leaf" id="home-leaf5" src='{{ "/img/main/leaf.png" | absURL }}'>
         <div class="home-body">
             <main class="home-main" >
                 <div class="home-content-left">
@@ -30,7 +35,9 @@
                         {{- end -}}
                     </div>
                 </div>
+                <!-- JQuery is already declared in partial "scripts", so no need to redeclare -->
                 {{ partial "scripts" . }}
+                <script src="{{ "js/moving-leaves.js" | relURL }}"></script>
             </main>
         </div>
         

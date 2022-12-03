@@ -18,7 +18,7 @@ disableLanguages        = []
 
 [params]
   enableCDN             = false
-  cssFiles              = ["default", "/css/stip.css"]
+  cssFiles              = ["default"]
   jsFiles               = ["default"]
   highlightjs           = true
   highlightjsTheme      = ""
