@@ -104,6 +104,11 @@ disableLanguages        = []
         icon = "instagram"
         title = "Instagram"
         url = "https://www.instagram.com/gerhean/"
+    
+    [[params.links]]
+        icon = "twitch"
+        title = "Twitch"
+        url = "https://www.twitch.tv/kentsugi11"
 
 #    [[params.links]]
 #        icon = "twitter"
