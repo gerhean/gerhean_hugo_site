@@ -45,7 +45,7 @@ disableLanguages        = []
     dynamicTitles       = true
     searchMenu          = true
     shareMenu           = true
-    languageMenu        = true
+    languageMenu        = false
 
   [params.intro]
     header                = "Ger Hean's Whimsical Thoughts"
