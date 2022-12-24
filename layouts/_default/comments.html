@@ -1,10 +1,5 @@
-{{- if .Params.instagram_link -}}
-  <article class="post">
-    <h2 id="say-something">
-        <a href="{{ .Params.instagram_link }}">
-        Join the discussion on Instagram!
-        <span class="fab fa-instagram"></span>
-      </a>
-    </h2>
-  </article>
-{{- end -}}
+<article class="post">
+  <div class="commentbox"></div>
+  <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+  <script>commentBox('5657901557350400-proj')</script>
+</article>
