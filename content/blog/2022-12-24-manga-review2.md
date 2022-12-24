@@ -1,5 +1,5 @@
 +++
-title = "Manga Recommendations: My Crossdressing Senior"
+title = "Manga Recommendations: My Crossdressing Senpai"
 description = "Is it weird to fall in love with boy who likes girly things?"
 date = "2022-12-24"
 tags = ["manga", "review", "romance"]
