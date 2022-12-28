@@ -32,7 +32,7 @@ disableLanguages        = []
   hideEmptyStats        = false
 
   [params.meta]
-    description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
+    description         = "Hi, my name is Ger Hean! This is my personal blog where I post my random thoughts. Don't take it too seriously XD"
     author              = "Ger Hean"
     favicon             = false
     svg                 = true
